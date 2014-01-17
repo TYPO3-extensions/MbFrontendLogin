@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_mbfrontendlogin_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+      <label index="user">User</label>
+      <label index="password">Password</label>
+      <label index="user_input">User</label>
+      <label index="password_input">Password</label>
+      <label index="login">Login</label>
+      <label index="logout">Logout</label>
+      <label index="error_login">An error occured during login. Maybe your Login-Informations are not correct!</label>
+      <label index="error_logout">An error occured during logout. Please try again later.</label>
+      <label index="error_forgot_pw">An error occured. Perhaps the given user is not (any more) registerd on the system!</label>
+      <label index="error_forgot_pw_mail">The mail could not be sent!</label>
+      <label index="success_forgot_pw_mail">The mail with your new password was sent successfully.</label>
+      <label index="logged_in_as">Your logged in as: </label>
+      <label index="forgot_pw">Forgot Password?</label>
+      <label index="desc_forgot_pw">You have forgotten your password? No problem. Enter your Username and submit the form. You will then get a new generated password to your e-mail-address (you should immediately change this afterwards).</label>
+      <label index="send_password">Send a new password</label>
+      <label index="forgot_pw_mail_headline">Forgot your password?</label>
+      <label index="forgot_pw_mail_new_password">Your new password:</label>
+    </languageKey>
+      <languageKey index="de" type="array">
+      <label index="user">Benutzer</label>
+      <label index="password">Passwort</label>
+      <label index="user_input">Benutzer</label>
+      <label index="password_input">Passwort</label>
+      <label index="login">Login</label>
+      <label index="logout">Logout</label>
+      <label index="error_login">Die Anmeldung ist fehlgeschlagen. Überprüfen Sie Ihre Anmeldedaten auf Korrektheit.</label>
+      <label index="error_logout">Die Abmeldung ist fehlgeschlagen. Versuchen Sie es später noch einmal.</label>
+      <label index="error_forgot_pw">Ein Fehler ist aufgetreten. Vielleicht gibt es diesen Benutzer im System nicht (mehr)!</label>
+      <label index="error_forgot_pw_mail">Die Mail konnte nicht verschickt werden!</label>
+      <label index="success_forgot_pw_mail">Die Mail mit ihrem neuen Passwort wurde erfolgreich versendet.</label>
+      <label index="logged_in_as">Sie sind eingeloggt als: </label>
+      <label index="forgot_pw">Passwort vergessen?</label>
+      <label index="desc_forgot_pw">Sie haben Ihr Passwort vergessen? Kein Problem. Geben Sie Ihren Benutzername ein und verschicken Sie das Formular. Sie werden anschließend eine E-Mail mit einem neuen generierten Passwort erhalten (dieses sollten Sie umgehend wieder abändern).</label>
+      <label index="send_password">Neues Passwort zuschicken</label>
+      <label index="forgot_pw_mail_headline">Passwort vergessen?</label>
+      <label index="forgot_pw_mail_new_password">Ihr neues Passwort:</label>
+    </languageKey>
+	</data>
+</T3locallang>

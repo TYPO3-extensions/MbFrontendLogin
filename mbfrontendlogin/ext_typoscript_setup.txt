@@ -1,0 +1,70 @@
+plugin.tx_mbfrontendlogin_pi1 {
+    
+    # Smarty Options
+    smarty {
+        #template_dir = typo3conf/ext/mbfrontendlogin/res/smarty/templates/
+        #compile_dir =  typo3conf/ext/mbfrontendlogin/res/smarty/templates_c/
+        templates {
+            login = login.tpl
+            logout = logout.tpl
+            forgot_pw = forgot_pw.tpl
+            forgot_pw_mail = forgot_pw_mail.tpl
+        }
+    }
+    
+    # Login Options
+    login {
+        # fe_user field to check against for login-process
+        feuserAuthField = {$plugin.tx_mbfrontendlogin_pi1.login.feuserAuthField}
+
+        # show forgot password link in login-template
+        showForgotPasswordLink = {$plugin.tx_mbfrontendlogin_pi1.login.showForgotPasswordLink}
+
+        # forgot password page uid
+        forgotPasswordPageUid = {$plugin.tx_mbfrontendlogin_pi1.login.forgotPasswordPageUid}
+    }
+
+    # Security Options
+    security {
+        # fe_user password is a salted password (sysext:saltedpasswords)
+        feuserPasswordIsASaltedPassword = {$plugin.tx_mbfrontendlogin_pi1.security.feuserPasswordIsASaltedPassword}
+
+        # fe_user password is saved as MD5?
+        feuserPasswordIsMD5 = {$plugin.tx_mbfrontendlogin_pi1.security.feuserPasswordIsMD5}
+        
+        # enable MD5 in Frontend
+        enableFrontendMD5 = {$plugin.tx_mbfrontendlogin_pi1.security.enableFrontendMD5}
+        
+        # if your not using MD5 you should at least use a personalized salting which is prepended to your password
+        passwordSalt = {$plugin.tx_mbfrontendlogin_pi1.security.passwordSalt}
+    }
+
+    # Redirect Page
+    redirects {
+        # Redirect after login to page with id
+        afterLogin = {$plugin.tx_mbfrontendlogin_pi1.redirects.afterLogin}
+
+        # Redirect after logout to page with id
+        afterLogout = {$plugin.tx_mbfrontendlogin_pi1.redirects.afterLogout}
+
+        # Reload actual page after login / logout - alternative to redirect afterLogin / afterLogout
+        reloadActualPage = {$plugin.tx_mbfrontendlogin_pi1.redirects.reloadActualPage}
+    }
+
+	mail {
+		# From
+		#from = from
+		
+		# Mail From
+		#fromMail = from@domain.de
+		
+		# Mail Reply
+		#replyMail = reply@domain.de
+		
+		# Mail Type
+		mailType = text/html
+		
+		# Mail Charset
+		mailCharset = utf-8
+	}
+}
