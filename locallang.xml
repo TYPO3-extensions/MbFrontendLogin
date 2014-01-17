@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'mbfrontendlogin'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">MB :: Frontend User Login</label>
+			<label index="pi1_plus_wiz_description">MB :: Feuser Login</label>
+      
+      <label index="tabname">Login Configuration</label>
+			<label index="selectmode">View</label>
+			<label index="selectmode_login">Login / Logout</label>
+			<label index="selectmode_forgot_pw">Forgot PW</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi1_title">MB :: Frontend User Login</label>
+			<label index="pi1_plus_wiz_description">MB :: Feuser Login</label>
+      
+      <label index="tabname">Login Konfiguration</label>
+			<label index="selectmode">Ansicht</label>
+			<label index="selectmode_login">Login / Logout</label>
+			<label index="selectmode_forgot_pw">Passwort vergessen</label>
+		</languageKey>
+	</data>
+</T3locallang>

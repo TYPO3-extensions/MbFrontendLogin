@@ -1,0 +1,35 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+  <sheets>
+    <sDEF>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>LLL:EXT:mbfrontendlogin/locallang.xml:tabname</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>	  		  
+			<selectmode>
+				<TCEforms>
+				  <label>LLL:EXT:mbfrontendlogin/locallang.xml:selectmode</label>
+				  <config>
+					<type>select</type>
+					<items type="array">
+						<numIndex index="0" type="array">
+								<numIndex index="0">LLL:EXT:mbfrontendlogin/locallang.xml:selectmode_login</numIndex>
+								<numIndex index="1">login_logout</numIndex>
+						</numIndex>
+						<numIndex index="1" type="array">
+								<numIndex index="0">LLL:EXT:mbfrontendlogin/locallang.xml:selectmode_forgot_pw</numIndex>
+								<numIndex index="1">forgot_pw</numIndex>
+						</numIndex>
+					</items>
+				  </config>
+				</TCEforms>  
+			</selectmode>
+        </el>
+      </ROOT>
+    </sDEF>
+  </sheets>
+</T3DataStructure>

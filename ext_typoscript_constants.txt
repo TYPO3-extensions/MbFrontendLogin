@@ -1,0 +1,42 @@
+plugin.tx_mbfrontendlogin_pi1 {
+
+    # Login Options
+    login {
+        # cat=PLUGIN.MBFRONTENDLOGIN/LOGIN; type=options[username,email,name]; label=fe_user field to check against for login-process
+        feuserAuthField = username
+
+        # cat=PLUGIN.MBFRONTENDLOGIN/LOGIN; type=options[true,false]; label=show forgot password link in login-template
+        showForgotPasswordLink = true
+
+        # cat=PLUGIN.MBFRONTENDLOGIN/LOGIN; type=links; label=forgot password page uid
+        forgotPasswordPageUid = 1
+    }
+
+    # Security Options
+    security {
+        # cat=PLUGIN.MBFRONTENDLOGIN/SECURITY; type=options[true,false]; label=fe_user password is a salted password (sysext: saltedpasswords)?
+        feuserPasswordIsASaltedPassword = true
+
+        # cat=PLUGIN.MBFRONTENDLOGIN/SECURITY; type=options[true,false]; label=fe_user password is saved as MD5?
+        feuserPasswordIsMD5 = false
+        
+        # cat=PLUGIN.MBFRONTENDLOGIN/SECURITY; type=options[true,false]; label=enable MD5 in Frontend
+        enableFrontendMD5 = false
+        
+        # cat=PLUGIN.MBFRONTENDLOGIN/SECURITY; type=text+; label=if your not using saltedpasswords or MD5 you should at least use a personalized salting which is prepended to your password
+        passwordSalt = t&7V3%+m!
+    }
+    
+    # Redirect Page
+    redirects {
+        # cat=PLUGIN.MBFRONTENDLOGIN/REDIRECTS; type=links; label=Redirect after login to page with id
+        afterLogin = 0
+
+        # cat=PLUGIN.MBFRONTENDLOGIN/REDIRECTS; type=links; label=Redirect after logout to page with id
+        afterLogout = 0
+
+        # cat=PLUGIN.MBFRONTENDLOGIN/REDIRECTS; type=options[true,false]; label=Reload actual page after login / logout - alternative to redirect afterLogin / afterLogout. If this is true afterLogin and afterLogout has no effect.
+        reloadActualPage = true
+    }
+
+}

@@ -1,0 +1,28 @@
+2014-01-17
+
+  * Some minor security refactoring
+
+2013-03-06 Markus Brunner
+
+	* TYPO3 4.6 conform wizicon-include
+	* Overwritable Mail-Configuration via TypoScript Setup see ext_typoscript_setup.txt
+
+2012-02-03 Markus Brunner
+
+	* Now compatible with saltedpasswords
+
+2012-02-02 Markus Brunner
+
+	* TypoScript-Setup Fix - Redirect after logout
+
+2012-01-23 Markus Brunner
+
+	* Forgot_PW View added
+	
+2012-01-19 Markus Brunner
+
+	* Language Array Update for TYPO3 Versions >= 4.6
+
+2012-01-18 Markus Brunner  <mail@markusbrunner-design.de>
+
+	* initial code generated with kickstarter
